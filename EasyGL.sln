@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasyGL.NET", "EasyGL.NET.vcproj", "{A4218BED-E22F-4A29-A299-5098BFC1ED40}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Turbine", "OpenGLDebugger\OpenGLDebugger.vcproj", "{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyBoard", "KeyBoard\KeyBoard.vcproj", "{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4218BED-E22F-4A29-A299-5098BFC1ED40}.Debug|.NET.ActiveCfg = Debug|Win32
+		{A4218BED-E22F-4A29-A299-5098BFC1ED40}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{A4218BED-E22F-4A29-A299-5098BFC1ED40}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{A4218BED-E22F-4A29-A299-5098BFC1ED40}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{A4218BED-E22F-4A29-A299-5098BFC1ED40}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4218BED-E22F-4A29-A299-5098BFC1ED40}.Debug|Win32.Build.0 = Debug|Win32
+		{A4218BED-E22F-4A29-A299-5098BFC1ED40}.Release|.NET.ActiveCfg = Release|Win32
+		{A4218BED-E22F-4A29-A299-5098BFC1ED40}.Release|Any CPU.ActiveCfg = Release|Win32
+		{A4218BED-E22F-4A29-A299-5098BFC1ED40}.Release|Mixed Platforms.ActiveCfg = Debug|Win32
+		{A4218BED-E22F-4A29-A299-5098BFC1ED40}.Release|Mixed Platforms.Build.0 = Debug|Win32
+		{A4218BED-E22F-4A29-A299-5098BFC1ED40}.Release|Win32.ActiveCfg = Release|Win32
+		{A4218BED-E22F-4A29-A299-5098BFC1ED40}.Release|Win32.Build.0 = Release|Win32
+		{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}.Debug|.NET.ActiveCfg = Debug|Win32
+		{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}.Debug|Win32.Build.0 = Debug|Win32
+		{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}.Release|.NET.ActiveCfg = Release|Win32
+		{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}.Release|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}.Release|Mixed Platforms.Build.0 = Debug|Win32
+		{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}.Release|Win32.ActiveCfg = Release|Win32
+		{B15D0A3A-55BC-4FB1-A8FB-2E36D8633D87}.Release|Win32.Build.0 = Release|Win32
+		{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}.Debug|.NET.ActiveCfg = Debug|Win32
+		{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}.Debug|Win32.Build.0 = Debug|Win32
+		{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}.Release|.NET.ActiveCfg = Release|Win32
+		{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}.Release|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}.Release|Mixed Platforms.Build.0 = Debug|Win32
+		{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}.Release|Win32.ActiveCfg = Release|Win32
+		{D5BC39ED-E05C-4729-B580-F98CD49EF2CC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

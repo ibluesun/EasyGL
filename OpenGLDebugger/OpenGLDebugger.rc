@@ -1,0 +1,158 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Arabic (Egypt) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ARE)
+#ifdef _WIN32
+LANGUAGE LANG_ARABIC, SUBLANG_ARABIC_EGYPT
+#pragma code_page(1256)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_OPENGLDEBUGGER      ICON                    "OpenGLDebugger.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_OPENGLDEBUGGER MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",                  IDM_ABOUT
+    END
+    POPUP "Geometric Model"
+    BEGIN
+        MENUITEM "Sphere",                      ID_SPHERE
+        MENUITEM "Cube",                        ID_CUBE
+        MENUITEM "Disk",                        ID_DISK
+        MENUITEM "Partial Disk",                ID_PARTIALDISK
+        MENUITEM "Cylinder",                    ID_CYLINDER
+    END
+    POPUP "Camera"
+    BEGIN
+        MENUITEM "Reset",                       ID_CAMERA_RESET
+    END
+    POPUP "VAN RPM"
+    BEGIN
+        MENUITEM "20",                          ID_VANRPM_20
+        MENUITEM "40",                          ID_VANRPM_40
+        MENUITEM "60",                          ID_VANRPM_60
+        MENUITEM "100",                         ID_VANRPM_100
+        MENUITEM "200",                         ID_VANRPM_200
+        MENUITEM "400",                         ID_VANRPM_400
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_OPENGLDEBUGGER ACCELERATORS 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  22, 17, 230, 75
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_OPENGLDEBUGGER,IDC_MYICON,14,9,16,16
+    LTEXT           "OpenGLDebugger Version 1.0",IDC_STATIC,49,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "OpenGLDebugger"
+    IDC_OPENGLDEBUGGER      "OPENGLDEBUGGER"
+END
+
+#endif    // Arabic (Egypt) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,21 @@
+This is My EasyGL  Engine
+built on top of OpenGL
+trying to make Drawing 3d is much easier
+
+this version is compiled under the C++.NET   but  not its Frame work
+
+So
+After thinking i discovered that making Engine is good
+but making 3d is Marvlous
+until now all code is aimed to engine 
+so i come up with 2nd idea
+
+building SHELL  :)
+
+this SHELL will be accessed by variety of languages
+
+like PERL & .net languages
+
+SHELL  will be Heaviely toward 3d itself
+
+and OPERATING SYSTEM CALLS  still in EasyGL
